@@ -91,5 +91,4 @@ Define la función de interrupción **onTimer()** que se ejecutará cada vez que
 
 La función **setup()** se ejecuta al inicio del programa. Este inicializa el temporizador hardware utilizando la función timerBegin(), adjunta la función de interrupción onTimer() al temporizador utilizando timerAttachInterrupt(), configura el temporizador para generar una interrupción cada 1 segundo con timerAlarmWrite(), y finalmente, habilita la interrupción del temporizador utilizando timerAlarmEnable().
 
-La función **loop()**  se ejecuta continuamente después de que la función setup() haya finalizado. En este caso, comprueba si ha ocurrido alguna interrupción. Si es así, decrementa interruptCounter para indicar que se ha procesado una interrupción, incrementa totalInterruptCounter y luego muestra un mensaje en el puerto serie indicando el número total de interrupciones ocurridas hasta el momento."# practica2_montse" 
-"# practica2_montse" 
+La función **loop()**  se ejecuta continuamente después de que la función setup() haya finalizado. En este caso, comprueba si ha ocurrido alguna interrupción. Si es así, decrementa interruptCounter para indicar que se ha procesado una interrupción, incrementa totalInterruptCounter y luego muestra un mensaje en el puerto serie indicando el número total de interrupciones ocurridas hasta el momento.
